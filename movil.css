@@ -1,0 +1,429 @@
+/*movil header*/
+
+@media (max-width: 600px) {
+   
+    header {
+        justify-content: space-between;
+        padding-top: 30px;
+        padding: auto;
+        position: relative;
+
+    }
+
+    header .logo1 {
+        margin: 0 0 30px -10px;
+    }
+
+    .hambur-hambur .icon-hambur {
+        font-size: 25px;
+        display: block;
+        margin: -25px 30px 0 0;
+
+    }
+
+    
+
+    .hambur-hambur {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 40%;
+        right: 5%;
+
+    }
+
+    .hambur-hambur .checkbox-menu {
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        
+      
+    }
+
+    .hambur-hambur .checkbox-menu:checked ~ ul {
+      top: 40px;
+        
+    }
+
+    .hambur-hambur .menu-movil {
+        position: absolute;
+       list-style: none;
+        right: -39%;
+       top: -550PX;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.99) 0%, rgba(43, 48, 135, 0.99) 100%);
+        transition: .30s;
+        width: 388px;
+        height: 500px;
+
+    }
+
+    .hambur-hambur .menu-movil a {
+       
+        font-size: 46px;
+       text-align: center;
+        font-weight: 400;
+        line-height: 70px;
+        display: block;
+        transition: .40s;
+
+
+
+    }
+    .hambur-hambur .menu-movil a:hover{
+       color:  rgba(34, 167, 93, 1);
+       text-decoration: underline;
+       font-size: 50px;
+
+    }
+    .hambur-hambur .menu-movil .li{
+        padding: 100px 20px 0 0;
+    }
+
+    header .todo .lista-nav {
+        display: none;
+    }
+
+    header .botones-nav1 {
+        display: none;
+    }
+}
+
+
+/*section reimaging sociasl media through the power of the blockchain.*/
+/* movil*/
+
+
+@media (max-width:600px) {
+    .fondo {
+        background-position-x: -500px;
+        background-position-y: -250px;
+    }
+
+    .section-Reimagining-social-media-through-the-power-of-the-blockchain {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 0;
+
+
+    }
+
+    .section-Reimagining-social-media-through-the-power-of-the-blockchain .tex-title1 {
+        margin-left: 20px;
+        width: 100%;
+
+
+    }
+
+    .section-Reimagining-social-media-through-the-power-of-the-blockchain .tex-title1 h2 {
+        margin-left: 0;
+        font-size: 36px;
+        line-height: 40px;
+
+    }
+
+    .section-Reimagining-social-media-through-the-power-of-the-blockchain .celmovil2 {
+
+        display: flex;
+        width: 130%;
+        padding: 0;
+
+    }
+
+    .section-Reimagining-social-media-through-the-power-of-the-blockchain .cel1 {
+
+        display: none;
+    }
+
+}
+
+/*movil for creators*/
+
+@media (max-width:600px) {
+    .conte-creator {
+        flex-wrap: wrap;
+        margin: 30px 30px 0 30px;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conte-creator .for-cretors1 {
+        padding: 20px 20px 40px 20px;
+        width: 100%;
+    }
+
+    .conte-creator .for-cretors2 {
+        margin-top: 30px;
+        padding: 20px 20px 40px 20px;
+        width: 100%;
+    }
+
+    .conte-creator .for-cretors1 h2 {
+        font-size: 28px;
+        line-height: 54px;
+    }
+
+    .conte-creator .for-cretors2 h2 {
+        font-size: 28px;
+        line-height: 54px;
+    }
+
+    .conte-creator .for-cretors1 img {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .conte-creator .for-cretors2 img {
+        width: 50%;
+        margin-top: 10px;
+    }
+}
+
+/* what makes us different*/
+
+@media (max-width:600px) {
+    .section-what-makes-us-different {
+        flex-wrap: wrap;
+
+    }
+
+    .section-what-makes-us-different .d .fondo-movil {
+        display: block;
+        width: 100%;
+        transform: scaleX(-1);
+        margin-top: -5px;
+
+    }
+
+    .section-what-makes-us-different .d .fondo-pc {
+        display: none;
+    }
+
+    .section-what-makes-us-different .d {
+        width: 100%;
+        transform: scaleX(-1);
+
+
+    }
+
+    .section-what-makes-us-different .semi1 {
+        width: 100%;
+        transform: scaleX(-1);
+    }
+
+    .section-what-makes-us-different .t {
+        transform: scaleX(-1);
+
+        top: 10%;
+        right: 5%;
+
+    }
+
+}
+
+
+/*section globos*/
+
+
+@media (max-width:600px) {
+    .section-globos {
+        background-image: none;
+        flex-wrap: wrap;
+    }
+
+    .section-globos .globo {
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    .section-globos .globo .globo-1 {
+        margin-top: 40px;
+    }
+
+    .section-globos .globo .puntos {
+        margin: 0;
+
+    }
+
+}
+
+
+/* movil section tocners is comimng*/
+
+
+@media (max-width:600px) {
+    .section-Tokner-is-coming {
+        flex-wrap: wrap-reverse;
+
+
+
+
+    }
+
+    .section-Tokner-is-coming .titulo-is-coming {
+        width: 100%;
+
+    }
+
+    .section-Tokner-is-coming .titulo-is-coming .tex-logo .titulo-is {
+        display: none;
+    }
+
+    .section-Tokner-is-coming .titulo-is-coming .tex-logo .titulo-movil1 {
+        display: inline;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        margin: 15px 0 0 0;
+    }
+
+    .section-Tokner-is-coming .titulo-is-coming .tex-logo {
+        flex-wrap: wrap;
+    }
+
+    .section-Tokner-is-coming .titulo-is-coming .tex-logo .logo2-1 {
+        display: none;
+    }
+
+    .section-Tokner-is-coming .titulo-is-coming .tex-logo .logo2 .logo-movil1 {
+        display: block;
+
+    }
+
+
+    .section-Tokner-is-coming .img-mano {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .section-Tokner-is-coming .img-mano .mano-fondo {
+        height: 107%;
+        right: -10px;
+
+    }
+
+    .section-Tokner-is-coming .mano-fondo {
+        height: 100%;
+    }
+
+}
+
+
+/*movil section presale details*/
+
+@media (max-width:600px) {
+    .fondog2 {
+        background-image: none;
+        background-image: url(./img/fondogmovil2.png);
+        background-repeat: no-repeat;
+
+        background-position-y: 70px;
+        border-radius: none;
+    }
+
+    .section-Presale-detalls {
+        background-image: none;
+
+
+
+    }
+
+    .section-Presale-detalls .semisec-presale {
+        flex-wrap: wrap;
+    }
+
+    .section-Presale-detalls .semisec-presale .conte-phase-one {
+
+
+        display: none;
+    }
+
+    .section-Presale-detalls .semisec-presale .conte-phase-three {
+
+
+        display: none;
+    }
+
+
+
+    .section-Presale-detalls .semisec-presale .q {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+
+}
+
+
+/*section hoe to buy*/
+
+@media (max-width:600px) {
+    .section-how-to-buy {}
+
+    .section-how-to-buy h2 {
+        font-size: 36;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    .section-how-to-buy .conte-buy {
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+
+    .section-how-to-buy .conte-buy .buy {
+        width: 100%;
+
+    }
+
+    .section-how-to-buy .conte-buy .buy2 {
+        margin: 0;
+    }
+
+    .section-how-to-buy .conte-buy .buy1 .sl1 {
+        top: 88%;
+        transform: rotate(90deg);
+        left: 39%;
+    }
+
+    .section-how-to-buy .conte-buy .buy3 .sl2 {
+        transform: rotate(90deg);
+        top: -20.5%;
+        left: 39%;
+    }
+}
+
+/*semi footer*/
+
+@media (max-width:600px) {
+    .semi-footer {
+        display: none;
+    }
+}
+
+
+/*footer*/
+
+@media (max-width:600px) {
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer ul {
+        margin-left: -50px;
+        gap: 10px;
+    }
+
+    footer .ultimo {
+        width: 100%;
+    }
+}
